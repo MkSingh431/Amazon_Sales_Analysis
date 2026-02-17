@@ -5,6 +5,7 @@ from PIL import Image
 import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
+import pywinpty as pwy
 
 data=pd.read_csv("Amazon Sales data.csv")
 data= pd.DataFrame(data= data)
